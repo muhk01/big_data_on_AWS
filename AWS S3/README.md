@@ -9,4 +9,7 @@ To integrate Amazon S3 with the Boto3 library, you need to follow these steps:
 ```
 pip install boto3
 ```
-2. Set up AWS Credentials: Boto3 requires AWS credentials to authenticate and authorize your access to S3. You can either set environment variables or create a configuration file to provide your AWS Access Key ID and Secret Access Key. in this example is using access key configured in IAM Console.
+2. Set up AWS Credentials: Boto3 requires AWS credentials to authenticate and authorize your access to S3. You can either set environment variables or create a configuration file to provide your AWS Access Key ID and Secret Access Key. in this example is using access key configured in IAM Console. but it can also be setup by AWS CLI
+```
+aws configure
+```
