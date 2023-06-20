@@ -1,6 +1,7 @@
 # AWS S3
 
 Integration AWS S3 with BOTO3 Python
+In this example is used to read csv in bucket, and bundle csv/parquet files in bucket.
 
 To integrate Amazon S3 with the Boto3 library, you need to follow these steps:
 
