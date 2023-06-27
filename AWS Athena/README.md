@@ -1,6 +1,13 @@
 # AWS Athena
 
 In this case, is usecase to read stored csv files in S3, then create table and query like SQL RDBMS.
+In query define a source path which is all attached-csv in this repository, then dont forget to define 
+```
+ResultConfiguration={'OutputLocation': output_location}
+```
+this is where the result for each query stored.
+
+## Requirements.
 
 1. Install the Boto3 library: Make sure you have Boto3 installed on your system. You can install it using pip:
 ```
