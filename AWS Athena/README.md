@@ -1,6 +1,6 @@
 # AWS Athena
 
-In this case, is usecase to read stored csv files in S3, then create table and query like SQL RDBMS.
+In this case, is usecase to read stored csv files in S3, then create table in athena which the data is sourced from bucket S3 and then query like SQL RDBMS.
 In query define a source path which is all attached-csv in this repository, then dont forget to define 
 ```
 ResultConfiguration={'OutputLocation': output_location}
